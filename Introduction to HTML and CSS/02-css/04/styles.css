@@ -1,0 +1,35 @@
+nav ul li .somelink {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+div.info > section > p.child {
+    color: yellowgreen;
+    font-size: medium;
+    font-style: italic;
+}
+
+div.info + header.navigation {
+    background-color: yellow;
+}
+
+section.highlighted ~ article {
+    background-color: green;
+}
+
+a[href="https://softuni.bg/"] {
+    font-weight: bold;
+    font-size: larger;
+}
+
+section.highlighted p:first-child {
+    background-color: blue;
+}
+
+p::first-letter {
+    font-size: x-large;
+    color: brown;
+}

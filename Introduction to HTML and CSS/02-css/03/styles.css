@@ -1,0 +1,20 @@
+p.highlighted {
+    color: cyan;
+    font-size: larger;
+
+}
+
+div p#some-color {
+    background-color: yellow;
+}
+
+[type="text"]#specialtype {
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.first.second {
+    font-style: inherit;
+    font-weight: bolder;
+}

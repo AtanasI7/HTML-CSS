@@ -1,0 +1,21 @@
+div p {
+    color: red;
+}
+
+ul > li {
+    list-style-type: lower-greek;
+}
+
+p + p {
+    background-color: blueviolet;
+}
+
+p span {
+    font-weight: bold;
+}
+
+div {
+    border-style: solid;
+    border-radius: 10px;
+    border-width:  1px;
+}

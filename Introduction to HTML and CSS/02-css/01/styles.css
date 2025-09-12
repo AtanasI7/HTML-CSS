@@ -1,0 +1,23 @@
+.highlight {
+    background-color: red;
+}
+
+#main-title {
+    color: rebeccapurple;
+}
+
+#special-paragraph {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: georgian;
+}
+ul li {
+    color: brown;
+}
+
+div {
+    background-color: steelblue;
+}
