@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+        <p>This paragraph is a direct descendant of a section.</p>
+        <article>
+            <p>This paragraph is within an article inside a section.</p>
+        </article>
+        <article class="highlighted">
+            <p>This paragraph is within a highlighted article.</p>
+        </article>
+        <article>
+            <p>This paragraph is in an article following a highlighted article.</p>
+        </article>
+    </section>
+    
+    <div>
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>
+                List Item 4 with links:
+                <ul>
+                    <li><a href=""></a>Link 1</li>
+                    <li><a href=""></a>Link 2</li>
+                    <li><a href=""></a>Link 3</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>Other text</li>
+            <li>Other text</li>
+        </ul>
+    </div>
+    
+    <div>
+        <h2>Siblings following this h2 are styled</h2>
+        <p class="siblings">A sibling paragraph.</p>
+        <p class="siblings">Another sibling paragraph.</p>
+    </div>
+
+</body>
+</html>

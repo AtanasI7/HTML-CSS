@@ -1,0 +1,22 @@
+.header-nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.nav-li {
+    list-style-type: none;
+    border: 2px solid coral;
+    border-radius: 90%;
+    padding: 10px;
+}
+
+.nav-a{
+    text-decoration: none;
+}
+
+@media (width <= 500px) {
+    .header-nav {
+        background-color: green;
+    }
+}

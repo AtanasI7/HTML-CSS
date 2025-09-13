@@ -1,0 +1,22 @@
+li {
+    list-style-type: none;
+    border: 3px solid red;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px;
+    background-color: purple;
+}

@@ -1,0 +1,23 @@
+p {
+    font-style: italic;
+}
+
+section p {
+    font-style: oblique;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+article + article.highlighted {
+    background-color: blue;
+}
+
+h2 ~ p.siblings {
+    font-weight: bolder;
+}
+
+div > ul li + li {
+    background-color: blueviolet;
+}
