@@ -1,0 +1,21 @@
+.border-class {
+    border: solid black 2px;
+    margin: 8px;
+}
+
+.box-one{
+    width: 300px;
+}
+
+.box-two{
+    width: 50%;
+}
+
+.box-three{
+    width: 50vw;
+}
+
+.box-four{
+    min-width: 100px;
+    max-width: 300px;
+}

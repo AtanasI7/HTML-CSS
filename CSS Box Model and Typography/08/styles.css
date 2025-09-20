@@ -1,0 +1,19 @@
+div {
+    border: solid red 3px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+}
+
+.box-one {
+    overflow: visible;
+}
+.box-two {
+    overflow: hidden;
+}
+.box-three {
+    overflow: scroll;
+}

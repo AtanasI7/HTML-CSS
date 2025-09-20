@@ -1,0 +1,15 @@
+div {
+    width: 300px;
+    padding: 20px;
+    border: solid red 5px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: pink;
+}
+
+.box-one {
+    box-sizing: content-box;
+}
+.box-two {
+    box-sizing: border-box;
+}

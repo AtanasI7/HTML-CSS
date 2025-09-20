@@ -1,0 +1,17 @@
+.box-one {
+    border: solid black 2px;
+    padding: 20px;
+    margin: 16px;
+}
+
+.box-two {
+    border: solid green 2px;
+    padding: 10px 30px 20px 40px;
+    margin: 16px;
+}
+
+.box-three {
+    border: solid purple 2px;
+    padding: 5%;
+    margin: 16px;
+}

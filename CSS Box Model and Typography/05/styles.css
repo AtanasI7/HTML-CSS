@@ -1,0 +1,22 @@
+.border-class {
+    border: solid black 2px;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+.box-one {
+    height: 200px;
+}
+
+.box-two {
+    height: 50%;
+}
+
+.box-three {
+    height: 50vw;
+}
+
+.box-four {
+    min-height: 100px;
+    max-height: 300px;
+}

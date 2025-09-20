@@ -1,0 +1,33 @@
+.block-div {
+    border: solid black 1px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.block-p{
+    border: solid black 1px;
+    padding: 16px;
+}
+
+.inline-div {
+    border: solid red 1px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.inline-p {
+    display: inline;
+    border: solid red 1px;
+    padding: 16px;
+}
+
+.block-inline-div {
+    border: solid blue 1px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.block-inline-p {
+    border: solid blue 1px;
+    padding: 16px;
+}
