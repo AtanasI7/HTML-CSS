@@ -1,0 +1,16 @@
+.box .boxTitle {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button {
+    border: lightgray 1px solid;
+    padding: 16px 24px;
+    cursor: pointer;
+}
+
+.button1 {background-color: lightgray;}
+.button2 {background-color: orange;}
+.button3 {background-color: lightcoral;}
+.button4 {background-color: white;}
+.button5 {background-color: lightgray;}
+

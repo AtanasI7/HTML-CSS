@@ -1,0 +1,41 @@
+.post {
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    width: 800px;
+    margin: 20px auto;
+    /* padding: 20px 20px 40px 20px; */
+}
+
+article {
+    margin: 30px 30px 50px 30px;
+}
+
+.mainTitle {
+    margin-bottom: 20px;
+}
+
+.important {
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.content {
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.secondTitle {
+    font-size: x-large;
+   margin-bottom: 20px; 
+}
+
+.published {
+    margin: 30px 30px 50px 30px;
+    font-style: italic;
+}
+
+.bolded {
+    font-weight: bold;
+}

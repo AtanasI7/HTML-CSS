@@ -1,0 +1,25 @@
+.parent {
+  position: relative;           /* нужно за абсолютното позициониране на p */
+  background-color: lightgreen; /* демонстрация - зоната на padding */
+  height: 300px;                /* примерна височина */
+  display: flex;
+  /* justify-content: center;      центрира по хоризонтала */
+  align-items: center;          /* центрира по вертикала */
+  border: 2px dotted black;
+  padding: 20px;
+}
+
+.parent .label {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.child {
+  background-color: aqua;
+  padding: 20px 40px;
+  border: 2px dotted black;
+}

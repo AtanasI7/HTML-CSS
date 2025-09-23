@@ -1,0 +1,19 @@
+section {
+    border: green 2px solid;
+    padding: 30px 80px;
+}
+
+article {
+    border: blue 2px solid;
+    padding: 20px 40px;
+}
+
+div {
+    border: 2px black solid;
+    margin: 20px;
+    padding: 30px 60px;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+

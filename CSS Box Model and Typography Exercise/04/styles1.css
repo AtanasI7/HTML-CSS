@@ -1,0 +1,51 @@
+.card {
+  background: #fff;
+  width: 400px;
+  margin: 40px auto; 
+  /* центрира картата */
+  border-radius: 12px;
+  overflow: hidden; 
+  /* за да се изрязват снимките по ръбовете */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* сянка */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+  /* разстояние между елементите */
+  padding-bottom: 20px;
+}
+
+.card .imageBox img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 20px;
+  margin-top: 16px;
+  color: #222;
+}
+
+.card .content {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  padding: 0 20px;
+}
+
+.card a {
+  display: block;
+  padding: 0 20px;
+  font-size: 13px;
+  color: #0066cc;
+  text-decoration: none;
+  word-break: break-word; 
+  /* за дълги линкове */
+}
+
+.card a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid lightgray ;
+    width: 600px;
+    margin: 20px auto; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.box details {
+    border-top: 1px solid lightgray;
+    padding: 10px 15px;
+   list-style: none;
+}
+
+.box details:first-child {
+    border-top: none;
+}
+
+.box details summary {
+    padding:15px 20px;
+    list-style: none;
+}
+
+
+.box summary::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f061"; 
+  margin-right: 8px;
+}
+
+
+.box details[open] > summary::before {
+  content: "\f063";
+}
+
+.box details p {
+    margin: 20px;
+}
+
+
