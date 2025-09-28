@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.calendar {
+    border: 1px darkgray solid;
+    display: flex;
+}
+
+.mainContainer {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.full {
+    width: 100%;
+}
+
+.fifth {
+    width: 15%;
+    flex-grow: 1;
+}
+
+.item {
+    border: 1px solid darkgray;
+    padding: 1em;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.half {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+

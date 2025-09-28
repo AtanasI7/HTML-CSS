@@ -1,0 +1,52 @@
+.outside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.outside .mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    max-width: 800px;
+    padding: 2rem;
+    align-items: center;
+}
+
+.mainContainer .title {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.title .rules {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    color: lightslategray;
+}
+
+.mainContainer .content {
+    display: flex;
+
+    margin-bottom: 3em;
+}
+
+.content .miniTitle {
+    font-weight: bold;
+}
+
+.mainContainer .additional {
+    text-align: center;
+    
+    width: 100%;
+    max-width: 400px;
+    color: lightslategray;
+}

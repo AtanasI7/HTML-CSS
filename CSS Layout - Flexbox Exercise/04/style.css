@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.navigation {
+    border: 1px black solid;
+    border-radius: 6px;
+    background-color: lightgray;
+    margin: 20px 0 0 20px;
+}
+
+.nav-box {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    gap: 20px;
+}
+
+.item {
+    border: 1px darkgray solid;
+    padding: 10px 20px;
+    color: rebeccapurple;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+
+}
+
+.special {
+    flex-grow: 1;
+}

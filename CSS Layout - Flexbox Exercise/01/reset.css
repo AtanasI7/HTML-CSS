@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+
+
