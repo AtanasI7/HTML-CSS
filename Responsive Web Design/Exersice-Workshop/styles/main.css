@@ -1,0 +1,40 @@
+:root {
+    --clr-purple: #6C4ACF;
+    --clr-dark-blue: #23223A;
+    --clr-white: #FFFFFF;
+    --clr-light-gray: gray;
+    --clr-black: #000000;
+    --clr-accent-blue: #3B4CA6;
+}
+
+
+.header {
+    background-color: var(--clr-white);
+    position: sticky;
+    box-shadow: 0 4px 12px 0 rgba(35, 34, 58, 0.15);
+    top: 0px;
+    z-index: 100;
+}
+
+.header .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+
+/* .header .maxed-content {
+    display: block;
+    max-width: 1600px;
+    margin: 0 auto;
+} */
+
+.header .menu-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+}
+
+.header .nav {
+    display: none;
+}
