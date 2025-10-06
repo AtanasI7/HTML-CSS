@@ -1,0 +1,10 @@
+html {
+    background-color: lightgray;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
