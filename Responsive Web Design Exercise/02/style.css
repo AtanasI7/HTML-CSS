@@ -23,4 +23,86 @@ ul, ol {
     margin: 2px auto;
 }
 
+.header .mainTitle {
+    color: green;
+    font-weight: bold;
+    padding: 2rem;
+}
 
+.nav .list {
+    display: flex;
+    flex-direction: column;
+    background-color: #3A3A3A;
+
+}
+
+.list .item {
+    border-bottom: 1px whitesmoke solid;
+    font-size: small;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.article .main {
+    padding: 2rem;
+}
+
+.main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main .container:first-child {
+    margin-bottom: 3rem;
+}
+
+.container .secondTitle {
+    color: #3A3A3A;
+    font-size: larger;
+}
+
+.footer {
+    background-color: #3A3A3A;
+}
+
+.footer .fText {
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 600px) {
+    .article {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .article {
+        max-width: 1000px;
+    }
+
+    .nav .list {
+        flex-direction: row;
+    }
+
+    .nav .item {
+        text-align: unset;
+        flex-grow: 1;
+    }
+
+    .article .main {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width: 1200px) {
+    .article {
+        max-width: 1200px;
+    }
+}
