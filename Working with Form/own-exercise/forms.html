@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="section">
+        <h1>Forms</h1>
+    </section>
+
+    <section class="section">
+        <h2>Search form</h2>
+
+        <form action="../lecture-demo/search.html" class="form">
+            <div class="field">
+                <label for="name">Search Query</label>
+                <input required type="text" name="name" id="search-name" placeholder="Article name, user name, etc...">
+            </div>
+
+            <div class="field">
+                <label for="category">Category</label>
+                <select name="category" id="category">
+                    <option value="" selected disabled>All</option>
+                    <option value="Articles">Articles</option>
+                    <option value="Products">Products</option>
+                    <option value="Users">Users</option>
+                </select>
+            </div>
+
+            <button>Send</button>
+        </form>
+
+    </section>
+
+    <section class="section">
+        <h2>Login form</h2>
+        <form action="../lecture-demo/profile.html" class="form">
+
+            <fieldset>
+                <legend>Login</legend>
+
+
+                <div class="field">
+                    <label for="username">Username / Email</label>
+                    <input type="text" name="username" id="username" placeholder="nasku_prasku/nasko@pras.com">
+                </div>
+
+                <div class="field">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+
+                <div class="field">
+                    <label for="note">Note</label>
+                    <input type="text" name="note" id="note">
+                </div>
+
+                <button>Login</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <section class="section">
+        <h2>Advanced form</h2>
+
+        <form action="../lecture-demo/profile.html" class="form">
+
+            <div class="field">
+                <label for="user">Username</label>
+                <input required type="text" name="user" id="user">
+            </div>
+
+            <div class="field">
+                <label for="password">Password</label>
+                <input required type="password" name="password" id="password">
+            </div>
+
+            <div class="field">
+                <label for="age">Age</label>
+                <input required type="nber" name="age" id="age">
+            </div>
+
+            <div class="field">
+                <label for="email">Email</label>
+                <input required type="text" name="email" id="email">
+            </div>
+
+            <div class="topDownField">
+                <fieldset>
+                    <legend>Gender</legend>
+
+                    <label class="check">
+                        Male
+                        <input required type="radio" value="Male" name="gender" id="">
+                    </label>
+
+                    <label class="check">
+                        Female
+                        <input required type="radio" value="Female" name="gender" id="">
+                    </label>
+
+                    <label class="check">
+                        Other
+                        <input required type="radio" value="Other" name="gender" id="">
+                    </label>
+                </fieldset>
+            </div>
+
+            <div class="topDownField">
+                <fieldset>
+                    <legend>Hobbies</legend>
+
+                    <label class="check">
+                        Music
+                        <input type="checkbox" name="hobbies" id="">
+                    </label>
+
+                    <label class="check">
+                        Gym
+                        <input type="checkbox" name="hobbies" id="">
+                    </label>
+
+                    <label class="check">
+                        Riding
+                        <input type="checkbox" name="hobbies" id="">
+                    </label>
+
+                    <label class="check">
+                        Gaming
+                        <input type="checkbox" name="hobbies" id="">
+                    </label>
+                </fieldset>
+            </div>
+
+            <div class="field">
+                <label for="country"></label>
+                <select required name="" id="">
+                    <option value="" disabled selected>Choose your Country</option>
+                    <option value="BG">Bulgaria</option>
+                    <option value="DE">Germany</option>
+                    <option value="UK">England</option>
+                    <option value="RU">Russia</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="number">Phone number</label>
+                <input class="unavailable" type="tel" name="" id="" disabled>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
