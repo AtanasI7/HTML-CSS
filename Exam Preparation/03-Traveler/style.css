@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.placeOne {
+    width: 100%;
+    max-width: 300px;
+}
+
+.bgBeige {
+  background-color: #f8f0e9;
+  display: flex;
+
+}
+
+.bgBeige .content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.content .note {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+.content .quote {
+  font-family: "Cormorant Infant", serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 3rem;
+  /* width: 70%; */
+}
+
+
+
+
+
+
+
+
