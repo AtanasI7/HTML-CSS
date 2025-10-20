@@ -101,3 +101,9 @@
     margin: auto;
 }
 
+
+.bgRed .contentRed .title {
+  color: white;
+  font-size: 2rem;
+  font-family: "Cormorant Infant", serif;
+}
