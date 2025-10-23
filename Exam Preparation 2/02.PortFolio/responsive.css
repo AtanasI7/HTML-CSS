@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+    nav {
+        flex-direction: row-reverse;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav .checkbtn {
+        display: inline-block;
+    }
+
+    .site-header {
+        height: 470px;
+    }
+
+    .site-header>i,
+    h1 {
+        text-align: center;
+        position: relative;
+        bottom: 0;
+    }
+
+    .site-header>i {
+        left: 0;
+    }
+
+    .flex-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* bottom: -40px; */
+    }
+
+    .about {
+        display: flex;
+    }
+
+    .about-header {
+        bottom: 0;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}    

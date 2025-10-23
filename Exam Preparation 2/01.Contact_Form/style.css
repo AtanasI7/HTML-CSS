@@ -1,0 +1,109 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: rgb(246 246 246);
+    color: rgb(91 90 90);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.article {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+
+}
+
+.article .message {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 800px;
+}
+
+.title {
+    font-size: medium;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+.message .form {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.message .row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.row .half {
+    flex-grow: 1;
+}
+
+.form input {
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 1px solid rgb(217 217 217);
+    
+}
+
+.form .btn {
+    align-self: flex-start;
+    padding: 1rem;
+    border: 1px solid rgb(91 90 90);
+    color: white;
+    background-color: rgb(91 90 90);
+    border-radius: 4px;
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+.message .info {
+    display: flex;
+    gap: 2rem;
+}
+
+.info .special {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.contacts .title {
+    margin-bottom: 2rem;
+}
+
+.contacts .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.links div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.links a {
+    border: 2px solid rgb(217 217 217);
+    padding: 1rem 1.5rem;
+    color: rgb(91 90 90);
+    border-radius: 4px;
+    width: 70px;
+    text-align: center;
+}
+
+
+
